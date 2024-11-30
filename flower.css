@@ -986,3 +986,40 @@ body {
 }
 
 /*# sourceMappingURL=flower.css.map */
+.button {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  background-color: #ca2067;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(26, 34, 43);
+}
+
+/* Text style */
+.text {
+  position: absolute;
+  font-size: 68px;
+  font-weight: bold;
+  color: #fff;
+  z-index: 9999;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.show-text {
+  opacity: 1;
+}
